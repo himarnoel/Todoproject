@@ -1,7 +1,7 @@
 import React from "react";
 
-import content from "../assets/Content.png";
-import logo from "../assets/logo.png";
+import content from "../../assets/Content.png";
+import logo from "../../assets/logo.png";
 const Nav: React.FC = () => {
   return (
     <div>

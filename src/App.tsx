@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import "./App.css";
-import Nav from "./Components/Nav";
-import Morning from "./Components/Morning";
-import Main from "./Components/Main";
+import Nav from "./Components/MajorComponents/Nav";
+import Morning from "./Components/MajorComponents/Morning";
+import Main from "./Components/MajorComponents/Main";
 import axios from "axios";
 
 function App() {
