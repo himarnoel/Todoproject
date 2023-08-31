@@ -2,7 +2,7 @@ import React from "react";
 import { AiOutlinePlus } from "react-icons/ai";
 const Morning: React.FC = () => {
   return (
-    <div className="px-20 mt-10">
+    <div className=" mt-10">
       <div className="flex justify-between items-start">
         <div className="flex flex-col">
           <p className="text-3xl font-bold text-[#101828]">Good Morning</p>

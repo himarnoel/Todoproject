@@ -25,9 +25,10 @@ function App() {
     <>
       <div className="">
         <Nav />
-        <Morning />
-        <Main />
-        
+        <div className=" px-20">
+          <Morning />
+          <Main />
+        </div>
       </div>
     </>
   );
