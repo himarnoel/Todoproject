@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import Nav from "./Components/Nav";
+import Morning from "./Components/Morning";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -8,6 +9,7 @@ function App() {
   return (
     <>
       <Nav />
+      <Morning />
     </>
   );
 }
