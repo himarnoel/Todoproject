@@ -1,11 +1,12 @@
 import React from "react";
 import DayComponent from "../MinorComponents/DayComponent";
+import CalendarComponents from "../MinorComponents/CalendarComponents";
 
 const Main: React.FC = () => {
   return (
     <div className=" mt-10 w-full ">
       <div className="flex lg:h-[80vh]">
-        <div className=" w-[75%]  bg-greenb-300">
+        <div className=" w-[65%]  bg-greenb-300">
           <p>January 2023</p>
           <div className="hide-scrollbar flex overflow-x-auto mt-2">
             <DayComponent date={31} day="Sun" selected={false} />{" "}
@@ -25,7 +26,9 @@ const Main: React.FC = () => {
             <DayComponent date={14} day="Sun" selected={false} />{" "}
           </div>
         </div>
-        <div className="w-[25%] bg-blue-400 "></div>
+        <div className="w-[35%]  ">
+          <CalendarComponents />
+        </div>
       </div>
     </div>
   );
