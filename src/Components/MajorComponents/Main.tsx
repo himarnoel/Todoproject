@@ -6,7 +6,7 @@ const Main: React.FC = () => {
   return (
     <div className=" mt-10 w-full ">
       <div className="flex lg:h-[80vh]">
-        <div className=" w-[65%]  bg-greenb-300">
+        <div className=" w-[65%]  bg-greenb-300 border-r pr-10 border-[#EAECF0]">
           <p>January 2023</p>
           <div className="hide-scrollbar flex overflow-x-auto mt-2">
             <DayComponent date={31} day="Sun" selected={false} />{" "}
