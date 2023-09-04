@@ -14,7 +14,7 @@ const CalendarComponents = (props: Props) => {
 
   return (
     <div className="pl-10">
-      <div className="w-full   rounded-lg  mx-auto cutomshadow bg-white py-4 px-4">
+      <div className="w-full h-[31rem]  rounded-lg  mx-auto cutomshadow bg-white py-4 px-4">
         <div className="s">
           <div className="flex justify-between items-center ">
             <GrFormPrevious
