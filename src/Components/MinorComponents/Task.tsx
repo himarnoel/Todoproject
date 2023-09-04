@@ -1,6 +1,6 @@
 type Props = {};
 
-const Task: React.FC<Props> = (Props) => {
+const Task: React.FC<Props> = () => {
   return (
     <div>
       <div className="w-full h-[5rem] bg-[#F9FAFB] border-b px-[16px] py-[24px] mt-6 border-[#EAECF0] flex justify-between items-center">

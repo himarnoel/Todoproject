@@ -6,7 +6,7 @@ import cn from "../../Utils/cn";
 import "../../App.css";
 type Props = {};
 
-const CalendarComponents: React.FC<Props> = (Props) => {
+const CalendarComponents: React.FC<Props> = () => {
   const days = ["Sun", "Mon", "Tue", "Wed", "Th", "Fr", "Sat"];
   const currentDate = dayjs();
   const [today, setToday] = useState<Dayjs>(currentDate);
