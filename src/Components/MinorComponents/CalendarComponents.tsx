@@ -6,7 +6,7 @@ import cn from "../../Utils/cn";
 import "../../App.css";
 type Props = {};
 
-const CalendarComponents = (props: Props) => {
+const CalendarComponents: React.FC<Props> = (Props) => {
   const days = ["Sun", "Mon", "Tue", "Wed", "Th", "Fr", "Sat"];
   const currentDate = dayjs();
   const [today, setToday] = useState<Dayjs>(currentDate);
@@ -14,7 +14,7 @@ const CalendarComponents = (props: Props) => {
 
   return (
     <div className="pl-10">
-      <div className="w-full h-[31rem]  rounded-lg  mx-auto cutomshadow bg-white py-4 px-4">
+      <div className="w-full h-fit rounded-lg  mx-auto cutomshadow bg-white py-4 px-4">
         <div className="s">
           <div className="flex justify-between items-center ">
             <GrFormPrevious
