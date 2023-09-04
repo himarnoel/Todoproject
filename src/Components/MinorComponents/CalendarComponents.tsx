@@ -1,7 +1,7 @@
 import dayjs, { Dayjs } from "dayjs";
 import { useState } from "react";
 import { GrFormNext, GrFormPrevious } from "react-icons/gr";
-import { generateDate, months } from "../../Utils/Calendar";
+import { generateDate } from "../../Utils/Calendar";
 import cn from "../../Utils/cn";
 import "../../App.css";
 type Props = {};

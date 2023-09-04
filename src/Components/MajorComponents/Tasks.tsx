@@ -3,7 +3,7 @@ import Task from "../MinorComponents/task";
 
 type Props = {};
 
-const Tasks = (props: Props) => {
+const Tasks: React.FC<Props> = () => {
   return (
     <div>
       <h1 className="text-[#101828] font-semibold text-base mt-10">My Tasks</h1>
